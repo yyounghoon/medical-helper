@@ -1,0 +1,34 @@
+nav {
+  width: 230px;
+  height: 100vh;
+  padding: 3rem 0px;
+  padding-left: 3rem;
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #37474f;
+  }
+  .nav-menu {
+    margin: 6rem 0;
+    .item {
+      padding: 1rem;
+      font-size: 1.125rem;
+      color: #546e7a;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      &:hover {
+        font-weight: bold;
+        color: black;
+        background: #eceff1;
+        border-radius: 4px;
+      }
+      .icon {
+        font-size: 2rem;
+      }
+      span {
+        margin-left: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.PharmacyList {
+  margin-left: 3rem;
+
+  .item-wrap {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    padding-left: 0.3rem;
+    margin-bottom: 4px;
+    button {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

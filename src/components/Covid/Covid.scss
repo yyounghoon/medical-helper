@@ -1,0 +1,36 @@
+.wrapper {
+  .dashboard-title {
+    display: flex;
+    justify-content: space-around;
+  }
+  .dashboard {
+    width: 35rem;
+    height: 5rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+    .list {
+      display: flex;
+      li {
+        padding: 0 2rem;
+        text-align: center;
+        .title {
+          color: #546e7a;
+        }
+        .count {
+          font-weight: bold;
+        }
+        .def {
+          color: #eb5374;
+        }
+        .clear {
+          color: #178a17;
+        }
+      }
+    }
+  }
+}
