@@ -3,7 +3,7 @@
 - 지역별 응급실의 위치와 수술가능 진료과목을 제공합니다.
 - 사용자의 현재 위치를 기반으로 가장 가까운 약국의 정보와 위치를 제공합니다.
 - 코로나 관련 정보들을 제공합니다.
-- 
+
 ## Project Stack
 ### Client
 Following items are core frontend technologies used in this project:
