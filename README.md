@@ -1,10 +1,10 @@
 # Medical-Helper
 
 ## Project Stack
-# Client
+### Client
 Following items are core frontend technologies used in this project:
 - React
-- -Sass
+- Sass
 - Redux
 - Redux-saga
 
