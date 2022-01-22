@@ -4,6 +4,7 @@ import CovidPage from "./pages/CovidPage";
 import MedicalCheckPage from "./pages/MedicalCheckPage";
 import PharmacyPage from "./pages/PharmacyPage";
 
+// 테스트용 주석
 const App = () => {
   return (
     <Switch>
