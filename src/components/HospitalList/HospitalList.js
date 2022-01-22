@@ -1,9 +1,10 @@
-import React, { useState } from "react";
-import HospitalModal from "../Modal/HospitalModal";
-import "./HospitalList.scss";
+import React, { useState } from 'react';
+import HospitalModal from '../Modal/HospitalModal';
+import './HospitalList.scss';
 
-const HospitalListItem = ({ data }) => {
+function HospitalListItem({ data }) {
   const [isModalOn, setIsModalOn] = useState(false);
+  const [test, setTest] = useState('false');
 
   const handleModal = () => {
     setIsModalOn(!isModalOn);
@@ -16,17 +17,16 @@ const HospitalListItem = ({ data }) => {
       {isModalOn && <HospitalModal data={data} handleModal={handleModal} />}
     </div>
   );
-};
+}
 
-const HospitalList = ({ data }) => {
+function HospitalList({ data }) {
   return (
     <div className="HospitalList">
       <h4>검색결과 리스트</h4>
       {data == null && <p>데이터가 없습니다.</p>}
-      {data &&
-        data.map((data, index) => <HospitalListItem key={index} data={data} />)}
+      {data && data.map((data, index) => <HospitalListItem key={index} data={data} />)}
     </div>
   );
-};
+}
 
 export default HospitalList;
