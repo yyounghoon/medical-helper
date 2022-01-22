@@ -4,7 +4,7 @@ import './HospitalList.scss';
 
 function HospitalListItem({ data }) {
   const [isModalOn, setIsModalOn] = useState(false);
-  const [asdfaasdfasdasdffsdfasdfasdf, setTest] = useState('false');
+  const [asdfaa, setTest] = useState('false');
 
   const handleModal = () => {
     setIsModalOn(!isModalOn);
